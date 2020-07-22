@@ -1,0 +1,96 @@
+body{
+	width: 100%;
+	margin: auto;
+
+
+	background-image: url(https://i.pinimg.com/originals/af/0b/8c/af0b8c65b6af98c47be789f6d6c9c079.jpg);
+	background-size:100%;
+	background-position: center;
+
+	font-family: sans-serif;
+	line-height: 1.5;
+	color: white;
+}
+
+main{
+
+}
+
+*{
+	padding:0px;
+	margin: 1px;
+}
+
+ul{
+	list-style: none;
+}
+
+img{
+	width: 40px;
+}
+
+input[type="checkbox"]
+{
+	display: none;
+}
+
+ul{
+	top: 70px;
+	width: 100%;
+	position: absolute;
+}
+
+nav
+{
+	background-color: rgba(16,16,16,.5);
+	width: 350px;
+	height: 100%;
+	left: -350px;
+	position:absolute;
+	transition: all .5s;
+}
+
+input[type="checkbox"]:checked ~ nav
+{
+	transform: translateX(350px);
+
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding: 20px 5px
+}
+
+a:hover{
+	background-color: rgb(176,224,230);
+	color: black;
+}
+
+label{
+	padding: 15px;
+	position: absolute;
+	z-index: 1;
+
+}
+
+
+
+
+
+.logo{
+	text-align: center;
+}
+.band-name{
+	text-align: center;
+}
+.headline{
+	text-align: center;
+}
+
+	
+
+	
+
+	
